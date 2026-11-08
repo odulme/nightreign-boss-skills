@@ -1,0 +1,20 @@
+# private keys, private scan lists and local release tooling: never commit
+*KEY*/
+*_key*/
+private_*.txt
+*.private.*
+
+# OS / editor residue
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# build residue
+__pycache__/
+*.pyc
+*.exe
+*.blend1
